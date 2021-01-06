@@ -1,0 +1,139 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div{
+  text-align: left;
+}
+
+/* Override Bootstrap */
+.btn-flat {
+	background-color: purple;
+	color: white;
+	border: 0px;
+	padding: 2px 12px;
+}
+
+.btn-flat:visited, .btn-flat:hover, .btn-flat:active {
+	background-color: purple;
+	color: #fff
+}
+
+.goalman {
+  color: #000;
+  font-size: 0.95rem;
+}
+
+.goalman ol {
+  margin-left: 30px;
+  padding-left: 0px; 
+}
+
+.goalman .objectives ol {
+	text-indent: -15px;
+}
+
+.goalman .objectives li {
+	margin: 5px 10px;
+}
+
+.goalman select {
+	padding: 5px;
+	padding-right: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.goalman input {
+	padding: 5px;
+	width: 100%;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.goalman textarea {
+	width: 100%;
+	color: #000;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	
+	height: 100px;
+	margin-bottom: 10px;
+	padding: 5px 0 0 8px;
+}
+
+.goalman .logo a{
+	color:purple;
+	text-decoration: none
+}
+
+.goalman .logo a:visited, .goalman .logo a:hover, .goalman .logo a:active {
+	background-color:transparent;
+}
+
+.goalman .userDetails{
+	height: 100vh;
+}
+
+.goalman .clearBoth{
+	float: left;
+	width: 100%;
+}
+
+.goalman .banner{
+	margin-top: 30%;
+    display: table-cell;
+	vertical-align: middle;
+	margin-left: 20%;
+	text-align: center;
+	float: left;
+}
+
+.goalman .catergoryCount{
+	margin: 12px 0 0 5px;
+}
+
+.goalman .menu li {
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0px;
+	padding-right: 0
+}
+
+.goalman .menu a {
+    color: Black;
+    padding: 10px;
+    width: 100%;
+	float: left;
+	text-decoration: none;
+ }
+
+ .goalman .menu .active, .goalman .menu .setActive, .goalman .menu a:hover {
+	background-color: #ececec;
+    color: Black;
+    padding: 10px;
+    width: 100%;
+    float: left;
+ }
+
+ .goalman .table td{
+	 padding: 0px;
+ }
+
+ .goalman .objectiveTitle {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+ }
+
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  }
+

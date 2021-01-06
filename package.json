@@ -1,0 +1,24 @@
+{
+	"name": "goalman",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js",
+		"server": "nodemon index.js",
+		"client": "npm run start --prefix client",
+		"jsonDB": "json-server --watch db.json --port 5000 --routes db-json-server-routes.json",
+		"dev": "concurrently \"npm run server\" \"npm run client\" \"npm run jsonDB\"",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "0.19.2",
+		"body-parser": "^1.19.0",
+		"concurrently": "^5.2.0",
+		"express": "^4.17.1",
+		"json-server": "^0.16.1",
+		"nodemon": "^2.0.4"
+	}
+}
